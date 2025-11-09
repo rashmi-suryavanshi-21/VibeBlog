@@ -12,7 +12,7 @@ const ShowBlog = () => {
         const findBlog = storedBlogs.find(blog => blog.id === Number(id)) ||
             storedBlogs.find(blog => String(blog.id) === String(id));
         setBlogs(findBlog)
-    }, []);
+    }, [id]);
     const deleteBlog = () => {
         const storedBlogs = JSON.parse(localStorage.getItem("blogs")) || [];
         const deletedBlog = storedBlogs.filter(blog => String(blog.id) !== String(id));
