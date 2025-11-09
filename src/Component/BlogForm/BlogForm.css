@@ -1,0 +1,44 @@
+.blog-form{
+font-size: 1.5rem;
+color: #0d0a07;
+}
+h2{
+    padding-left: 10%;
+    text-align: left;
+}
+label{
+    display: flex;
+    padding-left: 10%;
+    align-items: center;
+    padding-top: 2%;
+    color: rgb(116, 117, 113);
+}
+.blog-form input{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+}
+textarea{
+    height: 80px;
+    width: 80%;
+}
+.blog-form input:hover{
+    box-shadow: ();
+}
+.add-button{
+    margin-top: 2%;
+    display: block;
+}
+button{
+    border: none;
+    padding: 12px 25px;
+    border: 2px solid;
+    border-radius: 12px;
+    font-size: 18px;
+}
+.add-button{
+    display: flex;
+    margin-left: 10%;
+    color: #0d0a07; 
+
+}
